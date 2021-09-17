@@ -125,18 +125,21 @@ marquee{
 }
 .food-container{
 	height: 304px;
-	margin: 10px 40px;
+	margin: 10px 35px;
 	text-align: center;
 	/*border:2px solid green ;*/
 }
 .food-container p{
 	float: left;
 	font-size: 17px;
-	margin: 8px 0px 0px 50px;
+	margin: 8px 0px 0px 35px;
+}
+.food-container .del{
+	text-decoration: line-through;
 }
 .food-container button{
 	float: right;
-	margin-right: 50px;
+	margin-right: 40px;
 	font-size: 15px;
 	background-color: #171716;
 	color: white;
