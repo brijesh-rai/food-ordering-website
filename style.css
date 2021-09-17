@@ -6,6 +6,7 @@
 	text-decoration: none;
 }
 .navbar{
+	height: 70px;
 	z-index: 5;
 	position: fixed;
 	width: 100%;
@@ -30,14 +31,15 @@
 .title {
 	color: #abbdff;
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 37px;
 	font-family: 'Akaya Kanadaka', cursive;
 }
 .title:hover{
 	transition: 0.8s;
-	font-size: 28.5px;
+	font-size: 37.5px;
 }
 .links{
+	margin-top: 5px;
 	float: right;
 }
 .links li {
@@ -74,21 +76,34 @@
 	margin-top: 3px;
 	color: white;
 	font-weight: 100;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 3px 3px;
+	width: 330px;
+	margin-left: 39.3%;
+	text-align: left;
+	border-radius: 4px;
 }
 marquee{
-	margin: 50px 0px;
+	margin-top: 50px;
 	background-color: black;
 	color: yellow;
 	padding: 10px 10px;
 	font-size: 16px;
 	font-weight: bold;
 }
-
+.slogan{
+	margin-top: 50px;
+	background-color:black;
+	text-align: center;
+	padding: 20px 50px;
+	font-size: 18px;
+	color: white;
+}
 .login-btn{
 	margin-top: 80px;
 	padding: 10px 20px;
-	background-color: black;
-	color:#abbdff;
+	background-color: rgba(0, 0, 0, 1.0);
+	color:white;
 	font-size: 1.5em;
 	border-radius: 20px;
 	animation: 1s slidefade 0.2s forwards;
@@ -100,19 +115,87 @@ marquee{
 	}
 }
 .login-btn:hover{
-	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
 }
-.pizza-title,.burger-title,.sandwich-title,.cookie-title{
-	margin:30px 50px 0px;
+.food-title{
+	/*border: 2px solid darkred;*/
+	/*width: 100px;*/
+	margin:50px 50px 0px;
 	font-size: 2.5em;
 }
-.pizza,.burger,.sandwich,.cookie{
-	margin: 10px 0px;
+.food-container{
+	height: 304px;
+	margin: 10px 40px;
+	text-align: center;
+	/*border:2px solid green ;*/
+}
+.food-container p{
+	float: left;
+	font-size: 17px;
+	margin: 8px 0px 0px 50px;
+}
+.food-container button{
+	float: right;
+	margin-right: 50px;
+	font-size: 15px;
+	background-color: #171716;
+	color: white;
+}
+.food-container button:hover{
+	background-color:#e61e10;
+}
+.pizza img,.burger img,.sandwich img,.cookies img,.ice-cream img{
+	width: 300px;
+}
+.pizza,.burger,.sandwich,.cookies,.ice-cream{
+	float: left;
+	height: 300px;
+	border: 1px solid black;
+	margin-left: 10px;
+}
+.pizza:hover{
+	transition: 0.5s;
+	box-shadow: 1px 1px 3px 2px;
+}
+.burger:hover{
+	transition: 0.5s;
+	box-shadow: 1px 1px 3px 2px;
+}
+.sandwich:hover{
+	transition: 0.5s;
+	box-shadow: 1px 1px 3px 2px;
+}
+.cookies:hover{
+	transition: 0.5s;
+	box-shadow: 1px 1px 3px 2px;
+}
+.ice-cream:hover{
+	transition: 0.5s;
+	box-shadow: 1px 1px 3px 2px;
+}
+.safety-content{
+	margin-top: 100px;
+	background-color: black;
+	padding: 20px 50px;
 	text-align: center;
 }
-.pizza img,.burger img,.sandwich img,.cookie img{
-	margin: 0px 5px;
-	width: 300px;
+.safety-content p{
+	color: white;
+	font-family: 'Padauk', sans-serif;
+	font-size: 18px;
+}
+.safety-icon{
+	margin: 100px;
+	text-align: center;
+	height:150px;
+
+}
+.icons{
+	margin: 0px 90px;
+	float: left;
+}
+.safety-icon .icons .material-icons{
+	font-size: 100px;
 }
 .footer{
 	margin-top: 50px;
