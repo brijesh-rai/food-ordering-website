@@ -131,6 +131,9 @@ header{
 	color: white;
 	border-radius: 4px;
 }
+.del{
+	text-decoration: line-through;
+}
 .food button:hover{
 	background-color:#e61e10;
 }
