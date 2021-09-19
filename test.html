@@ -2,9 +2,32 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="test.css">
 	<title>Test</title>
 </head>
 <body>
-	<h1>Hello</h1>
+	<div class="container">
+		<div id="box" class="box-2">
+			<div class="box-2-child"></div>
+			<div class="box-2-child"></div>
+			<div class="box-2-child"></div>
+			<div class="box-2-child"></div>
+		</div>
+		<div id="box" class="box-1">
+			<div class="box-1-child">1</div>
+			<div class="box-1-child">2</div>
+		</div>
+		<div id="box" class="box-3">
+			<div class="box-3-child" id="image"></div>
+			<div class="box-3-child" id="form">
+				<label>Name</label>
+				<input type="text" name="Name" placeholder="Name"><br><br>
+				<label>Password</label>
+				<input type="Password" name="Password"><br><br>
+				<button>Submit</button>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
