@@ -140,7 +140,7 @@ header{
 .food h3{
 	font-size: 22px;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 780px){
 	.food-container img{
 		width: 200px;
 	}
